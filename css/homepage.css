@@ -1,0 +1,232 @@
+body {
+  background-image: url("../img/texturedbackground.jpg");
+  background-color: #efefef;;
+  border: solid 2.5px #000;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin: 10px;
+  height: 65px;
+  width: 98%;
+  padding: 0px 10px 0px 0px;
+  text-align: right;
+  border: dashed 2.5px #efefef;
+  background-color: #424242;
+  font-size: 50px;
+  color: #ff5722;
+  position: fixed;
+  middle: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+#personalpicture {
+  margin-left: 15px;
+  margin-top: 18px;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background-color: #bdbdbd;
+  display: inline-block;
+  z-index: 1000;
+  position: fixed;
+}
+
+#personalpicture > img {
+  margin-left: 7px;
+  height: 185px;
+  padding-top: 8px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  z-index: 0px;
+  position: relative;
+}
+
+#content {
+  font-family: 'Oswald', sans-serif;
+  margin: 0px;
+  padding-top: 50px;
+  height: 1250px;
+  width: 100%;
+  background-image: url("../img/texturedbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #424242;
+  border: solid 2px #efefef;
+}
+
+.jumbotron {
+  margin: 180px 20px;
+  height: 350px;
+  padding-top: 0px;
+  width: 30%;
+  background-color: #bdbdbd;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  z-index: 2000px;
+}
+
+.jumbotron > p {
+  margin: 10px 0px 0px 0px;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+  position: relative;
+}
+
+.jumbotron > ul {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px 5px 5px 5px;
+  padding-left: 15px;
+  text-align: left;
+  font-size: 12.5px;
+  width: 90%;
+  color: #424242;
+  border: dashed 1px #424242;
+}
+
+.jumbotron > img {
+  padding: 5px 5px 5px 5px;
+  height: 180px;
+  width: 60%;
+  align: center;
+  border: solid 1px #424242;
+}
+
+.liquid {
+  margin: 180px 20px;
+  height: 350px;
+  padding-top: 0px;
+  width: 30%;
+  background-color: #bdbdbd;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  z-index: 2000px;
+}
+
+.liquid > p {
+  margin: 10px 0px 0px 0px;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+  position: relative;
+}
+
+.liquid > ul {
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 5px 5px 5px 5px;
+  padding-left: 15px;
+  text-align: left;
+  font-size: 12.5px;
+  width: 90%;
+  color: #424242;
+  border: dashed 1px #424242;
+}
+
+.liquid > img {
+  padding: 5px 5px 5px 5px;
+  height: 180px;
+  width: 60%;
+  align: center;
+  border: solid 1px #424242;
+}
+
+.fixed {
+  margin: 180px 20px;
+  height: 350px;
+  padding-top: 0px;
+  width: 30%;
+  background-color: #bdbdbd;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  z-index: 2000px;
+}
+
+.fixed > p {
+  margin: 10px 0px 0px 0px;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+  position: relative;
+}
+
+.fixed > ul {
+  margin-top: 17.5px;
+  margin-left: 10px;
+  padding: 5px 5px 5px 5px;
+  padding-left: 15px;
+  text-align: left;
+  font-size: 12.5px;
+  width: 90%;
+  color: #424242;
+  border: dashed 1px #424242;
+}
+
+.fixed > img {
+  padding: 5px 5px 5px 5px;
+  height: 180px;
+  width: 60%;
+  align: center;
+  border: solid 1px #424242;
+}
+
+.resource-table {
+  margin-left: 140px;
+  margin-right: 175px;
+  height: 270px;
+  width: 82%;
+  padding-top: 100px;
+  color: white;
+  background-color: #bdbdbd;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  z-index: 2000px;
+}
+
+.resource-table > table {
+  height: 220px;
+  width: 90%;
+  margin-top: 0px;
+  margin-left: 70px;
+  background-color: #424242;
+  text-transform: uppercase;
+  border: solid 5px white;
+}
+
+th.odd {
+  background-color: #424242;
+}
+
+th.even {
+  background-color: #757575;
+}
+
+tr {
+  background-color: #424242;
+}
+
+tr.even {
+  background-color: #757575;
+}
+
+a {
+  color: #ff5722;
+}
+
+#footer {
+  height: 50px;
+  padding-left: 10px;
+  border: dashed 2.5px #efefef;
+  background-color: #424242;
+  color: #ff5722;
+  position: relative;
+}

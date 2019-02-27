@@ -1,0 +1,146 @@
+body {
+  background-image: url("../img/texturedbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.jumbotron {
+  margin: 1% 0.5% 0% 0.5%;
+  height: 98%;
+  width: 98%;
+  font-family: 'Oswald', sans-serif;
+  background-color: #ff5722;
+  border: dashed 2.5px white;
+}
+
+.container > h1 {
+  margin-left: 0%;
+  padding: 0px 0px 10px 5px;
+  background-color: #424242;
+  color: #ff5722;
+  text-align: center;
+}
+
+.firstparagraph {
+  height: 98%;
+  width: 50%;
+  margin: 1% 0% 1% 25%;
+  padding: 5px 5px 5px 5px;
+  background-color: #424242;
+  color: #efefef;
+  text-align: center;
+}
+
+.button-one {
+  margin: 1% 0% 1% 0.5%;
+  padding: 5px 5px 5px 5px;
+  width: 10%;
+  height: 10px;
+  background-color: #424242;
+  color: #ff5722;
+}
+
+.button-two {
+  margin: 1% 0% 1% 5.5%;
+  padding: 5px 5px 5px 5px;
+  width: 10%;
+  height: 10px;
+  background-color: #424242;
+  color: #ff5722;
+}
+
+.button-three {
+  margin: 1% 0% 1% 5.5%;
+  padding: 5px 5px 5px 5px;
+  width: 10%;
+  height: 10px;
+  background-color: #424242;
+  color: #ff5722;
+}
+
+.row {
+  width: 75%;
+  height: 90%;
+  margin: 5% 0% 0% 12.5%;
+  padding: 5px 5px 5px 5px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #bdbdbd;
+  border: solid 2.5px white;
+}
+
+.col-md-4 {
+  margin: 0.5% 1% 0% 25%;
+  padding: 2px 2px 2px 2px;
+  background-color: #424242;
+  width: 50%;
+}
+
+.homepage {
+  height: 10px;
+  width: 100%;
+  padding: 2px 2px 0px 2px;
+  color: #ff5722;
+  text-align: center;
+}
+
+.homepage-p {
+  margin: 0% 0% 5% 0%;
+  padding: 15px 5px 5px 5px;
+  color: #efefef;
+  text-align: left;
+}
+
+.fixed {
+  height: 10px;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  color: #ff5722;
+  text-align: center;
+}
+
+.fixed-p {
+  margin: 0% 0% 5% 0%;
+  padding: 15px 5px 5px 5px;
+  color: #efefef;
+  text-align: left;
+}
+
+.liquid {
+  height: 10px;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  color: #ff5722;
+  text-align: center;
+}
+
+.liquid-p {
+  margin: 0% 0% 5% 0%;
+  padding: 15px 5px 5px 5px;
+  color: #efefef;
+  text-align: left;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 2%;
+  padding: 5px 5px 5px 5px;
+  font-family: 'Oswald', sans-serif;
+  color: #efefef; 
+  background-color: #ff5722;
+}
+
+a {
+color: #ff5722;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

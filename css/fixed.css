@@ -1,0 +1,137 @@
+body {
+  background-image: url("../img/texturedbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 960px 800px;
+  color: #efefef;
+  background-color: #424242;
+  height: 800px;
+  width: 960px;
+  border: solid 2.5px #000;
+  margin: 0%;
+}
+
+#content-one {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 1px;
+  height: 100px;
+  width: 940px;
+  border: solid 2.5px #efefef;
+  background-color: #424242;
+}
+
+.header {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding-left: 100px;
+  height: 50px;
+  width: 820px;
+  border: dashed 2.5px #efefef;
+  text-align: right;
+  font-size: 40px;
+  color: #ff5722;
+}
+
+li {
+  display: inline;
+  margin: 0%;
+  padding: 20px 100px 20px 60px;
+  color: #ff5722;
+}
+
+a {
+color: #efefef;
+}
+
+#content-two {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  height: 500px;
+  width: 920px;
+  border: solid 2.5px #212121;
+  background-color: #bdbdbd;
+}
+
+#content-two > p {
+  margin-left: 250px;
+  width: 400px;
+  color: #424242;
+  font-size: 30px;
+  text-align: center;
+  border: solid 2.5px #424242;
+}
+
+.article {
+  margin-top: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 350px;
+  padding: 5px 5px 5px 5px;
+  font-size: 22px;
+  color: #424242;
+  border: solid 2.5px #424242;
+}
+
+.article > p {
+  margin-left: 15px;
+  width: 360px;
+  height: 300px;
+  padding: 5px 5px 5px 5px;
+  border: dashed 2.5px #efefef;
+  text-align: left;
+  font-size: 15px;
+  float: left;
+}
+
+.article > figure {
+  margin-top: 16px;
+  margin-left: 20px;
+  padding: 5px 5px 5px 5px;
+  width: 350px;
+  height: 300px;
+  border: dashed 2.5px #efefef;
+  text-align: center;
+  float: left;
+}
+
+img {
+  margin: 5px 5px 5px 5px;
+  height: 290px;
+  width: 325px;
+}
+
+#content-three {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 15px;
+  margin-left: 800px;
+  margin-bottom: 0px;
+  height: 80px;
+  width: 100px;
+  background-color: #ff5722;
+  position: relative;
+}
+
+.homepage > p {
+  margin-top: 0px;
+  padding: 8px 5px 9px 5px;
+  font-size: 20px;;
+  text-align: center;
+  color: #424242;
+  border: dashed 2.5px #efefef;
+}
+
+#content-four {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 15px;
+  height: 60px;
+  width: 940px;
+  border: solid 2.5px #efefef;
+  background-color: #424242;
+}
+
+.footer > p {
+  text-align: center;
+  color: #ff5722;
+  font-size: 100%;
+}
